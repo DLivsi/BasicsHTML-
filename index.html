@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Основы HTML</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <p>Заполнение формы персональных данных.</p>
+
+    </header>
+
+    <section>
+
+
+        <form action="#">
+
+            <p>
+                <label for="name">Имя:</label>
+                <input type="name" placeholder="Ваше Имя" required>
+            </p>
+            <p>
+                <label for="sername">Фамилия:</label>
+                <input type="sername" placeholder="Ваша Фамилия" required>
+            </p>
+            <p>
+                <label for="date">Дата рождения:</label>
+                <input type="date" name="date" required>
+            </p>
+            <p>
+                <label for="city">Город:</label>
+                <input type="city" placeholder="Ваш город" required>
+            </p>
+            <p>
+                <label for="city">Почта:</label>
+                <input type="email" placeholder="E-mail" required>
+            </p>
+            <p>
+                <label for="city">Телефон:</label>
+                <input type="phone" placeholder="88005553535" required>
+            </p>
+
+            <p>
+                <label for="message">Расскажите о себе:</label>
+                <textarea id="message" name="user_message" placeholder="Ваше сообщение"></textarea>
+
+            </p>
+
+            <button type="submit">Отправить форму</button>
+
+        </form>
+
+    </section>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
